@@ -10,4 +10,5 @@
 ### 01 - geometry part 2
 ![[Pasted image 20250319154238.png]]
 ### 01 - geometry part 3
-![[Pasted image 20250319165245.png]]
+![[Pasted image 20250319165245.png]]![[Pasted image 20250319170046.png]]
+![[Pasted image 20250319170150.png]]
