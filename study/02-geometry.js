@@ -45,7 +45,7 @@ class App {
     }
 
     _setupModel() {
-        const geometry = new THREE.BoxGeometry(1, 1, 1);
+        const geometry = new THREE.TorusKnotGeometry(0.8, 0.2, 100, 16, 2, 3);
         const fillMaterial = new THREE.MeshStandardMaterial({ color: 0x515151 });
         const cube = new THREE.Mesh(geometry, fillMaterial);
 
