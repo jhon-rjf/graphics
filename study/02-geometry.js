@@ -45,22 +45,12 @@ class App {
     }
 
     _setupModel() {
-        class CustomSinCurve extends THREE.Curve {
-            constructor(scale) {
-                super();
-                this.scale = scale;
-            }
-            
-            getPoint(t) {
-                const tx = t * 3 - 1.5;
-                const ty = Math.sin(2 * Math.PI * t);
-                const tz = 0;
-                return new THREE.Vector3(tx, ty, tz).multiplyScalar(this.scale);
-            }
+        const points = [];
+        for (let i = 0; i < 10; ++i) {
+            points.push(new THREE.Vector3(Math.sin(i * 0.2) * 3 + 3, (i - 5) * .8));
         }
         
-        const path = new CustomSinCurve(4);
-        const geometry = new THREE.TubeGeometry(path, 40, 0.8, 8, true);
+        const geometry = new THREE.LatheGeometry(points);
         
         const fillMaterial = new THREE.MeshPhongMaterial({color: 0x515151});
         const cube = new THREE.Mesh(geometry, fillMaterial);
