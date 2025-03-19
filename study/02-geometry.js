@@ -1,5 +1,6 @@
 // 20201507 정윤걸 과제제출용 인증 주석
 import * as THREE from '../build/three.module.js';
+import { OrbitControls } from '../examples/jsm/controls/OrbitControls.js';
 
 class App {
     constructor() {
@@ -19,6 +20,7 @@ class App {
         this._setupCamera();
         this._setupLight();
         this._setupModel();
+        this._setupControls();
         
         window.onresize = this.resize.bind(this);
         this.resize();
@@ -44,10 +46,24 @@ class App {
 
     _setupModel() {
         const geometry = new THREE.BoxGeometry(1, 1, 1);
-        const material = new THREE.MeshStandardMaterial({ color: 0x00ff00 });
-        const cube = new THREE.Mesh(geometry, material);
-        this._scene.add(cube);
-        this._cube = cube;
+        const fillMaterial = new THREE.MeshStandardMaterial({ color: 0x515151 });
+        const cube = new THREE.Mesh(geometry, fillMaterial);
+
+        const lineMaterial = new THREE.LineBasicMaterial({ color: 0xffff00 });
+        const line = new THREE.LineSegments(
+            new THREE.WireframeGeometry(geometry), lineMaterial);
+
+        const group = new THREE.Group();
+        group.add(cube);
+        group.add(line);
+        
+        this._scene.add(group);
+        this._cube = group;
+    }
+
+    _setupControls() {
+        this._controls = new OrbitControls(this._camera, this._renderer.domElement);
+        this._controls.enableDamping = true;
     }
 
     resize() {
@@ -68,6 +84,7 @@ class App {
         time *= 0.001;
         this._cube.rotation.x = time;
         this._cube.rotation.y = time;
+        this._controls.update();
     }
 }
 
