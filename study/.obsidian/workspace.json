@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "21f79426d4dd45d6",
+    "id": "91ad20cd5d97e9b0",
     "type": "split",
     "children": [
       {
-        "id": "e7a27e28b9072294",
+        "id": "43a5ed34c14bb4ee",
         "type": "tabs",
         "children": [
           {
-            "id": "a3cc5de8fc4e762a",
+            "id": "43099fc71403c985",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "README"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b24467abed5683e3",
+    "id": "424bc259f8a18b7f",
     "type": "split",
     "children": [
       {
-        "id": "dd1043de651aec1d",
+        "id": "37154cf3e3650974",
         "type": "tabs",
         "children": [
           {
-            "id": "31f84778879f681d",
+            "id": "1296190ee96d670a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "3dbf51797c17771c",
+            "id": "39b7062e51653151",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "cdc308e4fbeedd96",
+            "id": "df5acffa3ed3a619",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "e48e505d510d16a1",
+    "id": "42f5540137ff2df8",
     "type": "split",
     "children": [
       {
-        "id": "730a9df3b017dbdc",
+        "id": "15393ab2176635e2",
         "type": "tabs",
         "children": [
           {
-            "id": "571d834df7f6f602",
+            "id": "dffd5075065e31b3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "README 의 백링크"
             }
           },
           {
-            "id": "e1a77e6285ea8eb9",
+            "id": "32ac4681ce246563",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "README 의 나가는 링크"
             }
           },
           {
-            "id": "727f7e307da83a08",
+            "id": "457d8c89f0e82a05",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,17 +137,18 @@
             }
           },
           {
-            "id": "4a5ffa2b0be2991a",
+            "id": "71acfe81a0ee637a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "README 의 개요"
             }
           }
         ]
@@ -161,19 +168,6 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "a3cc5de8fc4e762a",
-  "lastOpenFiles": [
-    "README.md",
-    "src/Pasted image 20250319173009.png",
-    "src/Pasted image 20250319170644.png",
-    "src/Pasted image 20250319170621.png",
-    "src/Pasted image 20250319170150.png",
-    "src/Pasted image 20250319170046.png",
-    "src/Pasted image 20250319170040.png",
-    "src/Pasted image 20250319165756.png",
-    "src/Pasted image 20250319165245.png",
-    "src/Pasted image 20250319154238.png",
-    "src/Pasted image 20250319152951.png",
-    "src"
-  ]
+  "active": "43099fc71403c985",
+  "lastOpenFiles": []
 }
