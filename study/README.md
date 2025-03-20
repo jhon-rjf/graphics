@@ -14,3 +14,7 @@
 ![Pasted image 20250319170644](src/Pasted%20image%2020250319170644.png)
 ![Pasted image 20250319173009](src/Pasted%20image%2020250319173009.png)
 * 왜 마지막에 폰트가 저렇게 뒤로 뚱뚱하게 영상과 다른것인지 모르겠습니다
+
+### 03-scenegraph
+![Pasted image 20250320110453](src/Pasted%20image%2020250320110453.png)
+![Pasted image 20250320110652](src/Pasted%20image%2020250320110652.png)
